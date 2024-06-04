@@ -13,12 +13,12 @@
 GLfloat vertices[] =
 {
 	// -------------- Coordinates	---------------- /	------- Color --------- //
-	-0.50f, -0.50f * float(sqrt(3)) / 3,	 0.00f,		0.80f, 0.30f, 0.02f,	// Lower left corner
-	 0.50f, -0.50f * float(sqrt(3)) / 3,	 0.00f,		0.80f, 0.30f, 0.02f,	// Lower right corner
-	 0.00f,  0.50f * float(sqrt(3)) * 2 / 3, 0.00f,		1.00f, 0.60f, 0.32f,	// Upper corner
-	-0.25f,  0.50f * float(sqrt(3)) / 6,	 0.00f,		0.90f, 0.45f, 0.17f,	// Inner left
-	 0.25f,  0.50f * float(sqrt(3)) / 6,	 0.00f,		0.90f, 0.45f, 0.17f,	// Inner right
-	 0.00f, -0.50f * float(sqrt(3)) / 3,	 0.00f,		0.80f, 0.30f, 0.02f		// Inner down
+	-0.50f, -0.50f * float(sqrt(3)) / 3,	 0.00f,		0.00f, 1.00f, 0.00f,	// Lower left corner
+	 0.50f, -0.50f * float(sqrt(3)) / 3,	 0.00f,		0.00f, 0.00f, 1.00f,	// Lower right corner
+	 0.00f,  0.50f * float(sqrt(3)) * 2 / 3, 0.00f,		1.00f, 0.00f, 0.00f,	// Upper corner
+	-0.25f,  0.50f * float(sqrt(3)) / 6,	 0.00f,		0.50f, 0.50f, 0.00f,	// Inner left
+	 0.25f,  0.50f * float(sqrt(3)) / 6,	 0.00f,		0.50f, 0.00f, 0.50f,	// Inner right
+	 0.00f, -0.50f * float(sqrt(3)) / 3,	 0.00f,		0.00f, 0.50f, 0.50f		// Inner down
 };
 
 // Indices for vertices order
